@@ -1,0 +1,263 @@
+/* Desktop */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+}
+
+.container{
+    width: 60%;
+    margin: 10px auto;
+}
+
+header, .sobreMim{
+    background-color: black;
+}
+ul {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    height: 10vh;
+}
+
+ul > li {
+    list-style: none;
+}
+
+body{
+    color: grey;
+}
+
+.banner{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 140px;
+    font-size: 1.2rem;
+}
+.banner_title-color{
+    color: #5BCBB2;
+}
+.seta{
+    padding: 50px;
+}
+.seta_img{
+    width: 13%;
+}
+.projetos_title,  .titles{
+    color: black;
+    text-align: center;
+    padding: 32px;
+}
+
+.projetos {
+    height: 124vh;
+}
+.site_img {
+    width: 63%;
+    background-color: #B3B2B2;
+    border-radius: 22%;
+    margin-top: 16px;
+    margin-bottom: 10px;
+    margin-left: 90px;
+    padding: 1px 1px 1px 1px;
+}
+.site_title{
+    color: black;
+    width: 90%;
+    margin-top: 20px;
+    padding-left: 60px;
+   
+}
+
+.btn{
+    padding: 20px;
+    text-align: center;
+}
+.btn_link{
+    color:#5BCBB2;
+    border: 2px solid #5BCBB2;
+    padding: 7px;
+    margin-top: 18px;
+    font-size: 0.87rem;
+    margin-bottom: 21px;
+    border-radius: 10px;
+}
+.sobreMim{
+    height: 93vh;
+    background-color: black;
+    text-align: center;
+}
+.sobreMim_img{
+    background-color: #ddd;
+    border-radius: 100%;
+    height: 157px;
+    object-fit: cover;
+    width: 157px;
+}
+
+.contato{
+    height: 40vh;
+}
+.contato_icons{
+    display: flex;
+    height: 10vh;
+    justify-content: space-around;
+}
+.contato_img{
+    width: 10%;
+        
+}
+.contato_img-icon{
+   width: 170%;
+   display: block;
+   margin-left: 0px;
+   margin-top: 30px;
+}
+
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.0rem;
+    padding: 3px;
+
+}
+h4{
+    padding-top: 20px;
+}
+
+
+@media screen and (max-width:420px){
+   
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+}
+
+.container{
+    width: 60%;
+    margin: 10px auto;
+}
+
+header, .sobreMim{
+    background-color: black;
+}
+ul {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    height: 10vh;
+}
+
+ul > li {
+    list-style: none;
+}
+
+body{
+    color: grey;
+}
+
+.banner{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 140px;
+    font-size: 1.2rem;
+}
+.banner_title-color{
+    color: #5BCBB2;
+}
+.seta{
+    padding: 50px;
+}
+.seta_img{
+    width: 13%;
+}
+.projetos_title,  .titles{
+    color: black;
+    text-align: center;
+    padding: 32px;
+}
+
+.projetos {
+    height: 104vh;
+}
+.site_img {
+    width: 70%;
+    background-color: #B3B2B2;
+    border-radius: 22%;
+    margin-top: 16px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    padding: 1px 1px 1px 1px;
+}
+.site_title{
+    color: black;
+    width: 90%;
+    margin-top: 20px;
+    padding-left: 31px;
+   
+}
+
+.btn{
+    padding: 20px;
+    text-align: center;
+}
+.btn_link{
+    color:#5BCBB2;
+    border: 2px solid #5BCBB2;
+    padding: 7px;
+    margin-top: 18px;
+    font-size: 0.87rem;
+    margin-bottom: 21px;
+    border-radius: 10px;
+}
+.sobreMim{
+    background-color: black;
+    text-align: center;
+}
+.sobreMim_img{
+    background-color: #ddd;
+    border-radius: 100%;
+    height: 157px;
+    object-fit: cover;
+    width: 157px;
+}
+
+.contato{
+    height: 60vh;
+}
+.contato_icons{
+    display: block;
+    height: 10vh;
+    justify-content: space-around;
+}
+.contato_img{
+    width: 10%;
+        
+}
+.contato_img-icon{
+    width: 30%;
+    display: block;
+    margin-left: 78px;
+    margin-top: 10px;
+}
+
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.0rem;
+    padding: 3px;
+
+}
+h4{
+    padding-top: 20px;
+}
+}
+
+
